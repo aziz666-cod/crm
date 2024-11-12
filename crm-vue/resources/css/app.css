@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.link {
+    @apply text-gray-900;
+}
+.link.active {
+    @apply text-indigo-500;
+}
